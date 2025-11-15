@@ -1,9 +1,9 @@
-name: CI
+name: test
 
 on:
   push:
-  pull_request:
-  workflow_dispatch:
+    tags-ignore:
+      - '**'  # This ignores all tags
 
 env:
   FOUNDRY_PROFILE: ci
