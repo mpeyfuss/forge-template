@@ -13,3 +13,6 @@ dependencies/
 
 # Dotenv file
 .env
+
+# Jetbrains
+.idea/
