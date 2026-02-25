@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import {Test, console} from "forge-std-1.11.0/Test.sol";
+import {Test, console} from "forge-std-1.14.0/Test.sol";
 import {Counter} from "../src/Counter.sol";
 
 contract CounterTest is Test {
