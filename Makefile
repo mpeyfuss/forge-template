@@ -6,7 +6,7 @@
 # Dependencies
 ########################################
 remove:
-	rm -rf dependencies
+	rm -rf dependencies && rm soldeer.lock
 
 install:
 	forge soldeer install
